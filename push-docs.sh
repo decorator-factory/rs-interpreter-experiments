@@ -2,6 +2,7 @@
 
 set -Eeuo pipefail
 
+rm -rf target/doc
 cargo doc --no-deps
 cp -r target/doc ./doc
 echo '<meta http-equiv="refresh" content="0; url=interpreter_experiments">' > doc/index.html

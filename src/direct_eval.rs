@@ -1,4 +1,4 @@
-//! Direct evaluation strategy. A dead simple recursive tere walker.
+//! Direct evaluation strategy. A dead simple recursive tree walker.
 //!
 //! Just call `direct_eval` with an expression and the built-in namespace,
 //! and before you know it you get the result.
